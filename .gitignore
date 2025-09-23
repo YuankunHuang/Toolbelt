@@ -1,0 +1,15 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Never ignore Asset meta files
+![Aa]ssets/**/*.meta
+
+# Tools specific
+Assets/Tools/*/Temp/
+Assets/Tools/*/Cache/
+*.tmp
