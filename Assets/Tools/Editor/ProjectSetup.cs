@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -5,7 +6,7 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
-namespace YuankunHuang.Tools.Core
+namespace YuankunHuang.Tools.Editor
 {
     public static class ProjectSetup
     {
@@ -23,8 +24,6 @@ namespace YuankunHuang.Tools.Core
         [MenuItem("Tools/Setup/Optimize For Tool Development")]
         private static void Setup()
         {
-            Debug.Log($"Optimizing project for tools development...");
-
             try
             {
                 AssetDatabase.StartAssetEditing();
@@ -71,10 +70,14 @@ namespace YuankunHuang.Tools.Core
                     AssetDatabase.DeleteAsset(folder);
                 }
             }
+
+            Debug.Log($"CleanUpDefaultAssets finished");
         }
 
         private static void OptimizeEditorSettings()
         {
+            Debug.LogError($"OptimizeEditorSettings");
+
             EditorPrefs.SetBool("kAutoRefresh", false);
             EditorPrefs.SetBool("AutoRunPlayer", false);
             EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Standalone, BuildTarget.StandaloneWindows64);
@@ -93,6 +96,7 @@ namespace YuankunHuang.Tools.Core
 #elif UNITY_2019_3_OR_NEWER
             EditorSettings.gcIncremental = true;
 #endif
+            Debug.Log($"OptimizeEditorSettings finished");
         }
 
         private static void SetFastCompilation()
@@ -103,6 +107,7 @@ namespace YuankunHuang.Tools.Core
                 EnterPlayModeOptions.DisableDomainReload |
                 EnterPlayModeOptions.DisableSceneReload;
 #endif
+            Debug.LogError($"SetFastCompilation");
         }
 
         private static void InitializeProjectStructure()
@@ -152,6 +157,8 @@ namespace YuankunHuang.Tools.Core
                 File.WriteAllText(exampleTool, ExampleEditorWindowCode(), new UTF8Encoding(false));
                 AssetDatabase.ImportAsset(exampleTool);
             }
+
+            Debug.Log($"InitializeProjectStructure finished");
         }
 
         #region Helpers
@@ -268,3 +275,4 @@ namespace YuankunHuang.Tools.Core
         #endregion
     }
 }
+#endif

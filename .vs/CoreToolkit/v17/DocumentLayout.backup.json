@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\UnityProjects\\CoreToolkit\\",
+  "WorkspaceRootPath": "P:\\UnityProjects\\UnityToolsWorkspace\\CoreToolkit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71BDC0B0-0C75-BA21-F8E2-19BF9865BEFA}|Assembly-CSharp.csproj|p:\\unityprojects\\coretoolkit\\assets\\projectsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C41DB500-681F-2EA7-5894-8BEA56E8CD3F}|YuankunHuang.Tools.Editor.csproj|p:\\unityprojects\\unitytoolsworkspace\\coretoolkit\\assets\\tools\\editor\\projectsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41DB500-681F-2EA7-5894-8BEA56E8CD3F}|YuankunHuang.Tools.Editor.csproj|solutionrelative:assets\\tools\\editor\\projectsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BDC0B0-0C75-BA21-F8E2-19BF9865BEFA}|Assembly-CSharp.csproj|p:\\unityprojects\\unitytoolsworkspace\\coretoolkit\\assets\\projectsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71BDC0B0-0C75-BA21-F8E2-19BF9865BEFA}|Assembly-CSharp.csproj|solutionrelative:assets\\projectsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProjectSetup.cs",
-              "DocumentMoniker": "P:\\UnityProjects\\CoreToolkit\\Assets\\ProjectSetup.cs",
+              "DocumentMoniker": "P:\\UnityProjects\\UnityToolsWorkspace\\CoreToolkit\\Assets\\Tools\\Editor\\ProjectSetup.cs",
+              "RelativeDocumentMoniker": "Assets\\Tools\\Editor\\ProjectSetup.cs",
+              "ToolTip": "P:\\UnityProjects\\UnityToolsWorkspace\\CoreToolkit\\Assets\\Tools\\Editor\\ProjectSetup.cs",
+              "RelativeToolTip": "Assets\\Tools\\Editor\\ProjectSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:07:46.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectSetup.cs",
+              "DocumentMoniker": "P:\\UnityProjects\\UnityToolsWorkspace\\CoreToolkit\\Assets\\ProjectSetup.cs",
               "RelativeDocumentMoniker": "Assets\\ProjectSetup.cs",
-              "ToolTip": "P:\\UnityProjects\\CoreToolkit\\Assets\\ProjectSetup.cs*",
-              "RelativeToolTip": "Assets\\ProjectSetup.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAwHIAAAAWAAAAAAAAAA==",
+              "ToolTip": "P:\\UnityProjects\\UnityToolsWorkspace\\CoreToolkit\\Assets\\ProjectSetup.cs",
+              "RelativeToolTip": "Assets\\ProjectSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T05:21:04.588Z",
               "EditorCaption": ""

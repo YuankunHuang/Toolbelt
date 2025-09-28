@@ -1,0 +1,10 @@
+{
+  "name": "YuankunHuang.Tools.Runtime",
+  "references": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

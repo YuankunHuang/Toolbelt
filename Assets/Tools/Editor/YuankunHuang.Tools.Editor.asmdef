@@ -1,0 +1,11 @@
+{
+  "name": "YuankunHuang.Tools.Editor",
+  "references": ["UnityEditor", "YuankunHuang.Tools.Runtime"],
+  "includePlatforms": ["Editor"],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

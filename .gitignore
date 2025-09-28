@@ -1,15 +1,83 @@
-# Unity generated
+# =========================
+# Unity
+# =========================
 [Ll]ibrary/
 [Tt]emp/
+[Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+Library/PackageCache/
+# Crash/诊断
+CrashReports/
+sysinfo.txt
 
-# Never ignore Asset meta files
-![Aa]ssets/**/*.meta
+# Assets/**/Lightmap-*
+# Assets/**/LightingData.asset
+# Assets/**/ReflectionProbe-*
 
-# Tools specific
-Assets/Tools/*/Temp/
-Assets/Tools/*/Cache/
+# Addressables:
+Assets/Addressables*/Build*/ 
+!Assets/AddressableAssetsData/**
+
+# Keep all Meta files
+!*.meta
+
+# =========================
+# IDE / OS
+# =========================
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opendb
+*.VC.db
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# =========================
+# C# Auto-Generated
+# =========================
+*.csproj
+*.sln
+*.unityproj
+
+# =========================
+# Build
+# =========================
+# Android/Gradle
+.gradle/
+*.apk
+*.aab
+*.obb
+
+# iOS/Xcode
+DerivedData/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# =========================
+# Temp
+# =========================
 *.tmp
+*.tmp.meta
