@@ -96,7 +96,6 @@ namespace YuankunHuang.Tools.Editor
 #elif UNITY_2019_3_OR_NEWER
             EditorSettings.gcIncremental = true;
 #endif
-            Debug.Log($"OptimizeEditorSettings finished");
         }
 
         private static void SetFastCompilation()
@@ -107,7 +106,6 @@ namespace YuankunHuang.Tools.Editor
                 EnterPlayModeOptions.DisableDomainReload |
                 EnterPlayModeOptions.DisableSceneReload;
 #endif
-            Debug.LogError($"SetFastCompilation");
         }
 
         private static void InitializeProjectStructure()
