@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace YuankunHuang.Tools.Core
+namespace YuankunHuang.Tools.Editor
 {
     public class ExampleToolWindow : EditorWindow
     {

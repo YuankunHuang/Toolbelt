@@ -29,6 +29,7 @@ namespace YuankunHuang.Tools.Editor
         static void Open()
         {
             var window = GetWindow<QuickSelector>();
+            window.titleContent = new GUIContent("Quick Selector");
             window.Show();
         }
 
