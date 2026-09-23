@@ -13,7 +13,7 @@ Favorites are saved per user and per project in `UserSettings/Toolbelt/ObjectFav
 ## Install
 
 ```json
-"com.yuankunhuang.objectfavorites": "https://github.com/YuankunHuang/Toolbelt.git?path=/Packages/com.yuankunhuang.objectfavorites#objectfavorites/1.0.0"
+"com.yuankunhuang.objectfavorites": "https://github.com/YuankunHuang/Toolbelt.git?path=/Packages/com.yuankunhuang.objectfavorites#objectfavorites/1.0.1"
 ```
 
 Requires Unity 2022.3 or newer.

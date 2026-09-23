@@ -28,7 +28,7 @@ foreach (var result in filter.Find())
 ## Install
 
 ```json
-"com.yuankunhuang.quickselector": "https://github.com/YuankunHuang/Toolbelt.git?path=/Packages/com.yuankunhuang.quickselector#quickselector/1.0.0"
+"com.yuankunhuang.quickselector": "https://github.com/YuankunHuang/Toolbelt.git?path=/Packages/com.yuankunhuang.quickselector#quickselector/1.0.1"
 ```
 
 Requires Unity 2022.3 or newer.
