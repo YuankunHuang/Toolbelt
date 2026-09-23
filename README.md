@@ -14,7 +14,7 @@ Requires Unity 2022.3 or newer.
 Add it to `Packages/manifest.json` with its folder and a release tag:
 
 ```json
-"com.yuankunhuang.quickselector": "https://github.com/YuankunHuang/Toolbelt.git?path=/Packages/com.yuankunhuang.quickselector#quickselector/1.0.0"
+"com.yuankunhuang.quickselector": "https://github.com/YuankunHuang/Toolbelt.git?path=/Packages/com.yuankunhuang.quickselector#quickselector/1.0.1"
 ```
 
 Or in Package Manager: **+ > Add package from git URL** with the same URL. Tags are `<package>/<version>`, one per package release.
@@ -49,4 +49,8 @@ Open the project with Unity 2022.3 (the oldest supported version). Run the tests
 Unity.exe -batchmode -projectPath <this folder> -runTests -testPlatform EditMode -testResults results.xml
 ```
 
-To release a package: bump `version` in its `package.json`, add a `CHANGELOG.md` entry, commit, then tag `<package>/<version>` (for example `quickselector/1.0.1`) and push the tag.
+To release a package: bump `version` in its `package.json`, add a `CHANGELOG.md` entry, commit, then tag `<package>/<version>` (for example `quickselector/1.0.2`) and push the tag.
+
+## License
+
+[MIT](LICENSE). Each package also carries a copy as `LICENSE.md`.

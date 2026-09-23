@@ -1,9 +1,10 @@
 {
   "name": "com.yuankunhuang.quickselector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Toolbelt - Quick Selector",
   "description": "Editor window that finds and selects GameObjects in the open scenes or prefab by name (wildcards), tag, layer, active state and component.",
   "unity": "2022.3",
+  "license": "MIT",
   "keywords": [
     "toolbelt",
     "editor",

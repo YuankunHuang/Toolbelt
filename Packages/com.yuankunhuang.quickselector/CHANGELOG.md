@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2026-09-23
+
+### Added
+- MIT license, shipped with the package as LICENSE.md.
+
 ## [1.0.0] - 2026-09-23
 
 First release as a Toolbelt package (was Unity-QuickSelector-Pro).

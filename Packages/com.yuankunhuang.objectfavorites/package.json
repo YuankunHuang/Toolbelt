@@ -1,9 +1,10 @@
 {
   "name": "com.yuankunhuang.objectfavorites",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Toolbelt - Object Favorites",
   "description": "Editor window with pages of favorite assets and scene objects. Drag objects in, search, click to ping. Saved per user and per project.",
   "unity": "2022.3",
+  "license": "MIT",
   "keywords": [
     "toolbelt",
     "editor",
