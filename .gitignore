@@ -82,3 +82,6 @@ DerivedData/
 # =========================
 *.tmp
 *.tmp.meta
+
+# Visual Studio upgrade reports
+UpgradeLog*.htm
